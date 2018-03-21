@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Rich Content</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="StyleSheet.css">
+</head>
+<body>
+    <header>
+        <img src="Images/logo.png" alt="logo">
+        <h1>HTML5 Day Conference</h1>
+        <h5>Petra, Jordan. November, 4th 2020</h5>
+    </header>
+
+    <main>
+        <!--figure and figcaption------------------------------------>
+        <figure>
+            <img src="Images/animation.gif" alt="animated conference image" />
+            <figcaption>Images from the early years!</figcaption>
+        </figure>
+        <h2>The conference in images</h2>
+        <ul class="conference-images">
+            <li><img src="Images/event1.jpg" alt="event audience" /></li>
+            <!--sourceset,if save dift img sizes the browser will automatically choosee to show the best one-->
+            <li>
+                <img src="Images/event2.jpg" alt="event" />
+            </li>
+            <li>
+                <img src="Images/event3.jpg" alt="event" />
+            </li>
+        </ul>
+        <!--audio---------------------------------------------------->
+        <h2>Listen to the Welcome Message</h2>
+        <audio controls="controls" preload="metadata">
+            <source src="Images/welcome.mp3" type="audio/mpeg" />
+        </audio>
+        <!--video---------------------------------------------------->
+        <h2>About Petra</h2>
+
+        <video controls="controls">
+            <source src="Images/movie.mp4" type="video/mp4" />
+        </video>
+
+        <h2>Schedule</h2>
+
+        <table>
+            <caption>Conference Schedule by Room</caption>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Confernce Name</th>
+                    <th>Room Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>9am</td>
+                    <td>Keynote</td>
+                    <td>Indiana Jones</td>
+                </tr>
+                <tr>
+                    <td>12pm</td>
+                    <td>Lunch</td>
+                    <td>The Large Cafe</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">2pm</td>
+                    <td>CSS Training</td>
+                    <td>Lower Level Classrooms</td>
+                </tr>
+                <tr>
+                    <td>C# Training</td>
+                    <td>Main Floor Classrooms</td>
+                </tr>
+                <tr>
+                    <td>Java Training</td>
+                    <td>Upper Level Classrooms</td>
+                </tr>
+
+                <tr>
+                    <td>4pm</td>
+                    <td>Tours</td>
+                    <td>Leave from South Lobby</td>
+                </tr>
+                <tr>
+                    <td>7pm</td>
+                    <td>Dinner</td>
+                    <td>The Upper Balcony</td>
+                </tr>
+
+
+
+            </tbody>
+        </table>
+
+    </main>
+
+    <footer>
+        <p>If you have any questions, contact us on Twitter.</p>
+    </footer>
+</body>
+</html>

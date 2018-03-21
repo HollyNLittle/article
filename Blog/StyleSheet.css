@@ -1,0 +1,148 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to bottom right,azure,white,rgba(73, 136, 237,0.1),white);
+}
+
+.page-title {
+    color: white;
+    text-align: center;
+    padding: 3vh 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 7rem;
+    text-shadow: 0 0 200px rgba(0,0,0,0.3),0 0 5px rgb(0,0,0);
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: KaiTi;
+}
+
+h2 {
+    color: #0880A8;
+    text-align: center;
+    font-size: 3rem;
+    margin: 5vh 0vw;
+}
+
+p {
+    color: #0C3A4A;
+    font-size: 1.52rem;
+    text-align: justify;
+    padding: 4vh 5vw;
+    line-height: 1.5;
+    background-color: rgba(255,255,255,1);
+}
+
+img {
+    border-radius: 5%;
+}
+
+header img {
+    float: right;
+    margin: 0 10vw 15px 0;
+}
+
+article img {
+    float: left;
+    margin: 0 15px 5px 2vw;
+    border: 3px groove white;
+}
+
+article {
+    clear: left;
+    margin: 5vh 10vw;
+}
+
+.container {
+    margin-bottom: 5vh;
+    padding-bottom: 5vh;
+    border-bottom: 5px solid white;
+}
+/*navigation*/
+nav {
+    background: #0379A1;
+    padding: 2%;
+    margin: 0 0 4vh 0;
+}
+
+    nav li {
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 0 5%;
+        padding: 5px 10px;
+        color: white;
+        background-color: rgba(255,255,255,0.2);
+        text-align: right;
+    }
+
+    nav ul {
+        display: flex;
+        flex-grow: 1;
+        flex-direction: row;
+    }
+/**/
+
+ul, ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+header {
+    background-image: url('games/pacman/background.jpg');
+    padding: 0;
+    margin: 0;
+}
+/*posts*/
+.post {
+    border-left: 4px solid #14A5D9;
+    background: rgba(73,135,255,0.3);
+    padding: 3vh 1vw;
+    margin: 2vh 0;
+}
+
+/*table*/
+table {
+    margin: 10% 0 0 0;
+    width: 80%;
+    border-collapse: collapse;
+    background-color: #F0F4F5;
+    border-radius: 10%;
+}
+
+th, td, caption {
+    color: #0C3A4A;
+    border: 5px solid #9DC0CC;
+    padding: 2% 5%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+caption {
+    color: azure;
+    font-size: 2rem;
+    background-color: #0C3A4A;
+}
+
+th {
+    background-color: #C3D9E0;
+}
+
+/*footer*/
+footer {
+    margin: 5vh 0 0 0;
+    padding: 1vh 7vw 0vh 7vw;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    background: #0379A1;
+}
+
+    footer p {
+        color: azure;
+        background: #0379A1;
+    }

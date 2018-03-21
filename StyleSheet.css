@@ -1,0 +1,28 @@
+﻿body {
+    font-family: Helvetica;
+    background: linear-gradient(white,beige,tan,white,ivory,beige,tan);
+    text-align: center;
+    font-size:3rem;
+}
+
+h1, h2, h3 {
+}
+
+h5 {
+    font-style: italic;
+}
+
+img {
+    height: 40vh;
+    border-radius: 1%;
+}
+
+p {
+    padding: 5vh 10vw;
+}
+li{
+    list-style:none;
+}
+header{
+    background:white;
+}
